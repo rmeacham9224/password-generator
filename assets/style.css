@@ -3,6 +3,14 @@
 *::after {
   box-sizing: border-box;
 }
+body {
+    font-family: sans-serif;
+    background-color: #f9fbfd;
+  }
+.outside-box {
+    background-color: #e7e9eb;
+    padding: 5px;
+}
 
 html,
 body,
@@ -12,10 +20,7 @@ body,
   padding: 0;
 }
 
-body {
-  font-family: sans-serif;
-  background-color: #f9fbfd;
-}
+
 
 .wrapper {
   padding-top: 30px;
@@ -25,9 +30,7 @@ body {
 
 header {
   text-align: center;
-  padding: 20px;
-  padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  
 }
 
 .card {
