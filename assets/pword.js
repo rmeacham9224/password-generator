@@ -5,7 +5,6 @@ var passwordLength = function() {
     if (promptLength === "" || promptLength === null){
         window.alert('please enter a value.');
         return passwordLength();
-
     }
 }
 
@@ -104,13 +103,6 @@ var Special = function() {
 
 
 function generate(){
-window.prompt("How long would you like your password to be? Please provide a length between 8 and 128 characters");
-window.prompt("would you like to add lowercase letters?");
-window.prompt("would you like to add uppercase letters?"); 
-window.prompt("would you like to add uppercase letters?");
-window.prompt("would you like to add numeric values?");
-window.prompt("would you like to add special characters?");
-    
 }
 
 generate();
