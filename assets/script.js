@@ -1,5 +1,20 @@
 // Assignment code here
+window.alert("Welcome to the random password generator. Your password must include one of the following: Uppercase letters, Lowercase letters, numeric values, special characters");
+window.alert("Adjust the length of the password with the sliding bar before generating your password");
+
 function generate() {
+
+    var promptLower = window.prompt('Would you like to add Lowercase letters? Enter "Y" for yes or "N" for no');
+
+    var promptUpper = window.prompt('Would you like to add Uppercase letters? Enter "Y" for yes or "N" for no.');
+
+    var promptNumeric = window.prompt('Would you like to add Numerics? Enter "Y" for yes or "N" for no.');
+
+    var promptSpecial = window.prompt('Would you like to add special characters? Enter "Y" for yes or "N" for no.');
+
+
+
+
 
     //set password length/complexity
     let complexity = document.getElementById("slider").value;
@@ -45,7 +60,7 @@ document.getElementById("slider").oninput = function() {
 //}
 
 //var lowercase = function() {
-  //  var promptLower = window.prompt('Would you like to add Lowercase letters? Enter "Y" for yes or "N" for no');
+  //  
 //
   //  //nothing entered
     //if (promptLower === "" || promptLower === null) {
@@ -68,7 +83,7 @@ document.getElementById("slider").oninput = function() {
 //}
 
 //var uppercase = function() {
-  //  var promptUpper = window.prompt('Would you like to add Uppercase letters? Enter "Y" for yes or "N" for no.');
+  //  
 
     //if (promptUpper === "" || promptUpper === null) {
       //  window.alert ('Please enter "Y" or "N"');
@@ -91,7 +106,7 @@ document.getElementById("slider").oninput = function() {
 
 //still need to add numeric function
 //var numeric = function() {
-  //  var promptNumeric = window.prompt('Would you like to add Numerics? Enter "Y" for yes or "N" for no.');
+  //  
 
     //if (promptNumeric === "" || promptNumeric === null) {
       //  window.alert ('Please enter "Y" or "N"');
@@ -113,7 +128,7 @@ document.getElementById("slider").oninput = function() {
 //}
 
 //var Special = function() {
-  //  var promptSpecial = window.prompt('Would you like to add special characters? Enter "Y" for yes or "N" for no.');
+  //  
 
     //if (promptSpecial === "" || promptSpecial === null) {
       //  window.alert ('Please enter "Y" or "N"');
