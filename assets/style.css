@@ -11,6 +11,7 @@ body {
 
 header {
   font-size: 30px;
+  text-align: center;
 }  
 
 .outside-box {
@@ -45,7 +46,8 @@ header {
 
 #slider {
   width: 100%;
-  align-items: center;
+  align-items: center; 
+  scrollbar-track-color: deeppink;
 }
 
 .length {
@@ -53,17 +55,6 @@ header {
   margin: 15px;
 }
 
-
-.wrapper {
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-header {
-  text-align: center;
-  
-}
 
 .card {
   background-color: hsl(0, 0%, 100%);
@@ -91,7 +82,7 @@ header {
   color: hsl(0, 0%, 100%);
   font-size: 22px;
   line-height: 22px;
-  margin: 16px 16px 16px 20px;
+  margin: 10px;
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
