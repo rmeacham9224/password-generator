@@ -3,6 +3,11 @@ window.alert("Welcome to the random password generator. Your password must inclu
 window.alert("Adjust the length of the password with the sliding bar before generating your password");
 
 function generate() {
+    window.prompt("Would you like to add lowercase letters in your password?");
+    window.prompt("Would you like to add Uppercase letters in your password?");
+    window.prompt("Would you like to add Numeric values in your password?");
+    window.prompt("Would you like to add special characters in your password?");
+
     //set password length/complexity
     let complexity = document.getElementById("slider").value;
     
